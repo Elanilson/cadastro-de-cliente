@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h4{
+	text-align: center;
+}
+h1{
+	font-family:   sans-serif;
+
+}
+
+#principal{
+	width: 920px;
+	margin: 0 auto;
+}
+#cabecalho{
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+#formulario{
+	margin: 20px;
+}
+#btnSalvar{
+	margin-top: 10px;
+	float: right;
+}
+#campoInformacao{
+	text-align: center;
+	margin-top: 50px;
+}

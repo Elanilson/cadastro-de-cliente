@@ -1,0 +1,28 @@
+﻿====================== INSTALAÇÃO DO SISTEMA ======================
+1° Adicionar a pasta (app_cadastro_de cliente_public) no diretorio (C:\xampp\htdocs), no caso, localize onde
+foi instalado o xampp obs:abrir o xampp control panel e clicar em explore  abrir a pasta htdocs e colar
+a pasta (app_cadastro_de cliente_public).
+obs: esse vai ser o repositorio publico
+
+2° Adicionar a pasta (app_cadastro_cliente)  dentro da pasta xampp ex: C:\xampp\app_cadastro_cliente
+obs: esse vai ser o repositorio privado
+
+3° criando o banco de dados
+====================== CRIAÇÃO DO BANCO DE DADOS========================
+CREATE DATABASE bd_cadastro_cliente;
+
+CREATE TABLE tb_cliente (
+  id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT ,
+  nome varchar(50),
+  cpf varchar(15),
+  telefone varchar(15),
+  cep varchar(8),
+  logradouro varchar(50),
+  complemento varchar(50),
+  bairro varchar(15),
+  localidade varchar(15),
+  ddd varchar(2),
+  data_cadastro datetime NOT NULL DEFAULT current_timestamp()
+)
+==================== ACESSO AO SISTEMA==============
+1° digite no navegador http://localhost/app_cadastro_de%20cliente_public/index.php
